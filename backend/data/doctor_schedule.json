@@ -1,0 +1,36 @@
+{
+  "timezone": "Asia/Kolkata",
+  "buffer_minutes": 0,
+  "working_hours": {
+    "mon": [
+      "09:00-17:00"
+    ],
+    "tue": [
+      "09:00-17:00"
+    ],
+    "wed": [
+      "09:00-17:00"
+    ],
+    "thu": [
+      "09:00-17:00"
+    ],
+    "fri": [
+      "09:00-15:00"
+    ]
+  },
+  "existing_appointments": [
+    {
+      "booking_id": "APPT-EXAMPLE1",
+      "date": "2025-10-30",
+      "start_time": "10:00",
+      "end_time": "10:30",
+      "appointment_type": "consultation",
+      "patient": {
+        "name": "Test Patient",
+        "email": "test@example.com",
+        "phone": "+91-99999-00000"
+      },
+      "reason": "Routine check"
+    }
+  ]
+}
